@@ -1,19 +1,26 @@
-execute pathogen#infect()
+filetype plugin indent on
+
+let s:tabwidth=4
+au Filetype * let &l:tabstop = s:tabwidth
+au Filetype * let &l:shiftwidth = s:tabwidth
+au Filetype * let &l:softtabstop = s:tabwidth
 
 syntax on
-filetype on
-filetype plugin on
-filetype indent on " file type based indentation
-
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set shiftround
+set autoindent
 set expandtab
 set ai
 set number
 set hlsearch
 set ruler
+
+colorscheme peachpuff
+
 highlight Comment ctermfg=green
 
-autocmd FileType make set noexpandtab shiftwidth=2 softtabstop=0
-
 set clipboard=unnamed
+set laststatus=2
+set statusline=\ %F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c

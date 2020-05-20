@@ -16,3 +16,4 @@ highlight Comment ctermfg=green
 
 autocmd FileType make set noexpandtab shiftwidth=2 softtabstop=0
 
+set clipboard=unnamed

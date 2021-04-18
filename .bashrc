@@ -1,5 +1,4 @@
 alias ls='ls --color'
-alias ls='ls -G'
 
 export CLICOLOR=1
 

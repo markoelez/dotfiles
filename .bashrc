@@ -9,4 +9,4 @@ export LSCOLORS=cxgxfxexbxegedabagacad
 
 export EDITOR='vim'
 
-alias vi="vim"
+alias vi='vim'

@@ -1,4 +1,12 @@
+alias ls='ls --color'
 alias ls='ls -G'
-export PS1='\u@\h:\[\e[33m\]\w[\e[0m\]\$ '
+
+export CLICOLOR=1
+
+export PS1="$(whoami)\[\e[31m\] \[\e[m\]\[\e[31m\]:\[\e[m\]\[\e[31m\]:\[\e[m\] \[\e[32m\]\w\[\e[m\] \[\e[34m\]_\[\e[m\] "
+
+export LSCOLORS=cxgxfxexbxegedabagacad
+
 export EDITOR='vim'
-export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+
+alias vi="vim"

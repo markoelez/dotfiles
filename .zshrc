@@ -8,7 +8,7 @@ autoload -U colors && colors
 autoload -U promptinit && promptinit
 
 export CLICOLOR=1
-export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
 
 export PATH=$PATH:$HOME/bin
 

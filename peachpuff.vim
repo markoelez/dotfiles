@@ -1,3 +1,5 @@
+" put in $HOME/.vim/colors/peachpuff.vim
+
 " Vim color file
 " Maintainer: David Ne\v{c}as (Yeti) <yeti@physics.muni.cz>
 " Last Change: 2003-04-23

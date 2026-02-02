@@ -1,4 +1,4 @@
-PS1=$'%n@%m%F{203}::%f%F{46}%~%f '
+PS1=$'%n@%m%F{203}::%f%F{46}%~%f%F{203}:%f '
 
 bindkey -v
 autoload -U colors && colors

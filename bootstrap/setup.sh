@@ -69,8 +69,7 @@ else
   export PATH="$HOME/.claude/bin:$PATH"
 
   echo ""
-  echo "run 'claude' to authenticate — it will display a URL."
-  echo "open that URL in your browser, then paste the code back here."
+  echo "run 'claude' to authenticate"
 fi
 
 echo ""

@@ -13,3 +13,6 @@ export PATH="/usr/local/sbin:$PATH"
 
 rf() { exec $SHELL; }
 gp() { git add . && git commit -m "$1" && git push; }
+
+alias nw='networkquality'
+alias cl='claude --dangerously-skip-permissions'

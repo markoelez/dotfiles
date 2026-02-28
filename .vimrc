@@ -26,6 +26,8 @@ colorscheme peachpuff
 
 highlight Comment ctermfg=green
 
-set clipboard=unnamed
+if has('gui_running') || exists('$DISPLAY') || has('gui_macvim')
+  set clipboard=unnamed
+endif
 set laststatus=2
 set statusline=\ %F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
